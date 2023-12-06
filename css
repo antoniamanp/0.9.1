@@ -1,0 +1,40 @@
+.modal {
+    width: 400px;
+    border: 1px solid black;
+    position: relative;
+    height: fit-content;
+}
+
+h4{
+    margin: 10px;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fechar{
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right:-15px;
+    top:-15px;
+}
+
+.acoes {
+    display: flex;
+
+}
